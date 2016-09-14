@@ -1,8 +1,11 @@
 # Node Todo App ok let start
-- worked oncoe locally
-- changed ignore
 
-A Node app built with MongoDB and Angular. For demonstration purposes and a tutorial.
+- data working localy too
+- mongo and being ignored 
+
+- data working online
+- 'mongodb://localhost/meanstacktutorials'
+
 
 Node provides the RESTful API. Angular provides the frontend and accesses the API. MongoDB stores like a hoarder.
 
