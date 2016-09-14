@@ -8,6 +8,8 @@
 
 # wed 14th changed server.js to use remoteUrl from local.
 
+- now using new remote user name config
+
 Node provides the RESTful API. Angular provides the frontend and accesses the API. MongoDB stores like a hoarder.
 
 ## Requirements
