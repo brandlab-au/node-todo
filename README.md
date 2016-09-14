@@ -10,6 +10,8 @@
 
 - now using new remote user name config
 
+- now i have comented out MongoClient
+
 Node provides the RESTful API. Angular provides the frontend and accesses the API. MongoDB stores like a hoarder.
 
 ## Requirements

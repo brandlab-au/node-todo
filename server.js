@@ -5,13 +5,15 @@ var mongoose = require('mongoose'); 				// mongoose for mongodb
 var port = process.env.PORT || 8080; 				// set the port 
 var database = require('./config/database'); 		// load the database config // 
 
-var MongoClient = require('mongodb').MongoClient,
-    assert = require('assert');
+// used localy MongoClient 
 
-MongoClient.connect(database.remoteUrl, function(err,db) {
-     assert.equal(err,null);
-    console.log("Connected correctly to server");
-});
+//var MongoClient = require('mongodb').MongoClient,
+//    assert = require('assert');
+//
+//MongoClient.connect(database.remoteUrl, function(err,db) {
+//     assert.equal(err,null);
+//    console.log("Connected correctly to server");
+//});
 
 var morgan = require('morgan');
 var bodyParser = require('body-parser');
