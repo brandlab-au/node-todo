@@ -6,6 +6,7 @@
 - data working online
 - 'mongodb://localhost/meanstacktutorials'
 
+# wed 14th changed server.js to use remoteUrl from local.
 
 Node provides the RESTful API. Angular provides the frontend and accesses the API. MongoDB stores like a hoarder.
 
