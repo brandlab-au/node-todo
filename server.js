@@ -8,7 +8,7 @@ var database = require('./config/database'); 		// load the database config //
 var MongoClient = require('mongodb').MongoClient,
     assert = require('assert');
 
-MongoClient.connect(database.localUrl, function(err,db) {
+MongoClient.connect(database.remoteUrl, function(err,db) {
      assert.equal(err,null);
     console.log("Connected correctly to server");
 });
