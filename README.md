@@ -1,5 +1,6 @@
 # Node Todo App ok let start
-
+- 29/9/2016 
+- adding things
 - data working localy too
 - mongo and being ignored 
 
